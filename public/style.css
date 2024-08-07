@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
-}
 
 @media screen and (min-width: 500px) {
     body {
@@ -65,7 +62,7 @@ p {
 
 body {
     padding: 25px;
-    background-color: black;
+    background-color:#E9EBEC;
     font-size: 25px;
 }
 
@@ -74,7 +71,7 @@ body {
     color: white;
 }
 body {
-    background-color: black;
+    background-color: #E9EBEC;
   }
   
   @media screen and (min-width: 480px) {
@@ -86,4 +83,20 @@ body {
     .ep{
         flex-direction: column;
     }
+  }
+   .dark-mode .lightshi{
+    background-color: black;
+  }
+
+  .lightshi{
+    background-color: white;
+  }
+ 
+
+  .dark-mode .typeshi{
+background-color: white;
+  }
+
+  .typeshi{
+    background-color: transparent;
   }
